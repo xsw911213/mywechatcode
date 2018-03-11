@@ -1,0 +1,33 @@
+.loading-hide {
+  -webkit-animation: loadingHide 1.2s 1 ease-in-out;
+  animation: loadinghide 1.2s 1 ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes loadinghide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.container-show {
+  -webkit-animation: containershow 1.2s 1 ease-in-out;
+  animation: containershow 1.2s 1 ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@keyframes containershow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
